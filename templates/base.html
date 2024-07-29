@@ -17,27 +17,21 @@
                 <li><a href="{{ url_for('dashboard') }}">Dashboard</a></li>
                 <li><a href="{{ url_for('academics') }}">Academics</a></li>
                 <li><a href="{{ url_for('courses') }}">Courses</a></li>
-                <li><a href="{{ url_for('grades') }}">Grades</a></li>
-                <li><a href="{{ url_for('messages') }}">Messages</a></li>
-                <li><a href="{{ url_for('events') }}">Events</a></li>
+                <li><a href="{{ url_for('updates') }}">Updates</a></li>
                 {% if logged_in %}
                     <li><a href="{{ url_for('profile') }}">Profile</a></li>
+                    <li><a href="{{ url_for('logout') }}">Logout</a></li>
                 {% else %}
                     <li><a href="{{ url_for('login') }}">Login</a></li>
                 {% endif %}
             </ul>
         </nav>
     </header>
-
     <main>
-        {% block content %}
-        {% endblock %}
+        {% block content %}{% endblock %}
     </main>
-
     <footer>
-        <p>&copy; 2024 Indur Institute of Engineering and Technology</p>
+        &copy; 2024 Indur Institute of Engineering and Technology
     </footer>
-
-    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
 </body>
 </html>

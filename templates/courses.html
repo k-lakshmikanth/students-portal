@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block title %}Courses - Indur Institute of Engineering and Technology{% endblock %}
+
+{% block content %}
+    <div class="courses-section">
+        <h1>Available Courses</h1>
+        <ul>
+            {% for course in courses %}
+                <li>{{ course }}</li>
+            {% endfor %}
+        </ul>
+    </div>
+{% endblock %}

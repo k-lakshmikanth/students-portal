@@ -3,29 +3,20 @@
 {% block title %}Home - Indur Institute of Engineering and Technology{% endblock %}
 
 {% block content %}
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/home.css') }}">
-
-    <section class="hero">
+    <div class="hero">
         <h1>Welcome to Indur Institute of Engineering and Technology</h1>
-        <p>Your gateway to a world of engineering excellence.</p>
-        <a href="#" class="cta-button">Explore Courses</a>
-    </section>
+        <p>Your gateway to excellence in engineering education.</p>
+        <a href="{{ url_for('dashboard') }}" class="cta-button">Explore Dashboard</a>
+    </div>
 
-    <section class="highlights">
+    <div class="highlights">
         <div class="card">
-            <h2>Latest News</h2>
-            <p>Stay updated with the latest news and announcements from the institute.</p>
-            <a href="#" class="cta-button">Read More</a>
+            <h2>News & Updates</h2>
+            <p>Stay updated with the latest news and events.</p>
         </div>
         <div class="card">
             <h2>Upcoming Events</h2>
-            <p>Don’t miss out on our exciting events and activities.</p>
-            <a href="#" class="cta-button">See Events</a>
+            <p>Check out the upcoming events and activities.</p>
         </div>
-        <div class="card">
-            <h2>Student Resources</h2>
-            <p>Access important resources and information to aid your studies.</p>
-            <a href="#" class="cta-button">Access Resources</a>
-        </div>
-    </section>
+    </div>
 {% endblock %}

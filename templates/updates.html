@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block title %}Updates - Indur Institute of Engineering and Technology{% endblock %}
+
+{% block content %}
+    <div class="updates-section">
+        <h1>Latest Updates</h1>
+        <ul>
+            {% for update in updates %}
+                <li>{{ update }}</li>
+            {% endfor %}
+        </ul>
+    </div>
+{% endblock %}

@@ -1,0 +1,24 @@
+/* General Styles for Updates Page */
+.updates-section {
+    padding: 20px;
+    background-color: #ffffff; /* White background */
+}
+
+.updates-section h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.updates-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.updates-section ul li {
+    background-color: #f8f9fa; /* Light Gray background for list items */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    padding: 15px;
+    margin: 10px 0;
+    font-size: 18px;
+}
