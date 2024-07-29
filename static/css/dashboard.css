@@ -1,0 +1,20 @@
+/* General Styles for Dashboard Page */
+.dashboard-header {
+    background-color: #343a40; /* Primary Color for dashboard header */
+    color: #ffffff; /* White text */
+    padding: 20px;
+    text-align: center;
+}
+
+.dashboard-content {
+    padding: 20px;
+    background-color: #ffffff; /* White background */
+}
+
+.dashboard-widget {
+    background-color: #f8f9fa; /* Light Gray background for widgets */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    padding: 15px;
+    margin: 10px;
+}

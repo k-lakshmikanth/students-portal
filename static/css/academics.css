@@ -1,0 +1,21 @@
+/* General Styles for Academics Page */
+.academics-section {
+    padding: 20px;
+    background-color: #ffffff; /* White background */
+}
+
+.resource {
+    background-color: #f8f9fa; /* Light Gray background for resources */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    padding: 15px;
+    margin: 20px 0;
+}
+
+.resource h2 {
+    font-size: 24px;
+}
+
+.resource p {
+    font-size: 16px;
+}

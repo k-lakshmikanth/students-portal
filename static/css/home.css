@@ -1,0 +1,59 @@
+/* General Styles for Home Page */
+.hero {
+    background-color: #007bff; /* Accent Color for hero background */
+    color: #ffffff; /* White text */
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.cta-button {
+    background-color: #ffffff; /* White background for buttons */
+    color: #007bff; /* Accent Color for text */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 18px;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #f8f9fa; /* Light Gray for button hover */
+    color: #0056b3; /* Darker shade of Blue on hover */
+}
+
+.highlights {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.card {
+    background-color: #ffffff; /* White background for cards */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    padding: 20px;
+    margin: 20px;
+    flex: 1;
+    max-width: 300px; /* Adjust card width */
+}
+
+.card h2 {
+    font-size: 24px;
+}
+
+.card p {
+    font-size: 16px;
+}

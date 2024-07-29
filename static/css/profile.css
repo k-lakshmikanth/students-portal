@@ -1,0 +1,22 @@
+/* General Styles for Profile Page */
+.profile-section {
+    padding: 20px;
+    background-color: #ffffff; /* White background */
+}
+
+.profile-info {
+    background-color: #f8f9fa; /* Light Gray background for profile info */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    padding: 15px;
+    margin: 20px 0;
+}
+
+.profile-actions {
+    margin-top: 20px;
+}
+
+.profile-actions .cta-button {
+    display: inline-block;
+    margin-right: 10px;
+}

@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block title %}Academics - Indur Institute of Engineering and Technology{% endblock %}
+
+{% block content %}
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/academics.css') }}">
+
+    <section class="academics-section">
+        <h1>Academics</h1>
+        <p>Explore academic resources and materials to support your studies.</p>
+        <div class="resource">
+            <h2>Course Materials</h2>
+            <p>Access and download course materials.</p>
+            <a href="#" class="cta-button">Access Materials</a>
+        </div>
+        <div class="resource">
+            <h2>Library Resources</h2>
+            <p>Browse and utilize library resources.</p>
+            <a href="#" class="cta-button">Visit Library</a>
+        </div>
+    </section>
+{% endblock %}

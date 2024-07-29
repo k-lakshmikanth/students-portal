@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block title %}Profile - Indur Institute of Engineering and Technology{% endblock %}
+
+{% block content %}
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/profile.css') }}">
+
+    <section class="profile-section">
+        <h1>Your Profile</h1>
+        <div class="profile-info">
+            <h2>Personal Information</h2>
+            <p>Name: John Doe</p>
+            <p>Email: john.doe@example.com</p>
+            <p>Student ID: 123456</p>
+        </div>
+        <div class="profile-actions">
+            <a href="#" class="cta-button">Edit Profile</a>
+            <a href="#" class="cta-button">Change Password</a>
+        </div>
+    </section>
+{% endblock %}
